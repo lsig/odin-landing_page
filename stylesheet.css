@@ -84,3 +84,31 @@ body {
     padding: 8px 32px;
     margin-top: 16px;
 }
+
+.middle {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#styletext {
+    font-size: 36px;
+    font-weight: bolder;
+    color: #1F2937;
+    padding: 32px 12px;
+}
+
+.collage {
+    gap: 48px;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.shoppingtext {
+    display: flex;
+    justify-content: center;
+    font-size: 18px;
+    font-weight: 600;
+    color: #1F2937;
+    padding: 12px 6px;
+}
