@@ -132,3 +132,39 @@ body {
     font-style: normal;
     font-weight: 700;
 }
+
+.ad {
+    display: flex;
+    justify-content: center;
+    margin: 96px 12px;
+}
+
+.thead {
+    display: flex;
+    justify-content: space-between;
+    border-radius: 10px;
+    background-color: #3882f6;
+    padding: 48px 144px;
+    color: #E5E7EB;
+    gap: 250px;
+}
+
+#actiontext {
+    font-weight: 800;
+    font-size: 22px;
+}
+
+#smallertext {
+    font-size: 14px;
+}
+
+.thead button {
+    color: #f9faf8;
+    background-color: #3882f6;
+    border-color: #f9faf8;
+    border-radius: 10px;
+    border-style: solid;
+    font-weight: 700;
+    font-size: 16px;
+    padding: 0px 32px;
+}
